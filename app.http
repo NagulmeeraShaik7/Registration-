@@ -1,0 +1,38 @@
+
+POST http://localhost:3000/registration/
+
+
+{
+  "name": "Vishal",
+  "email": "vishal@gmail.com",
+  "dateOfBirth": 2000-08-05
+}
+{
+  "name": "Mahesh",
+  "email": "mahesh@gmail.com",
+  "dateOfBirth": 2001-07-25
+}
+
+#### 
+
+
+
+
+
+GET http://localhost:3000/register/
+####  
+
+
+PUT http://localhost:3000/register/4/
+
+{
+  "name": "Maneesh",
+  "email": "maneesh@gmail.com",
+  "dateOfBirth": 1999-02-17
+}
+### 
+
+
+DELETE http://localhost:3000/register/5/ 
+
+####
